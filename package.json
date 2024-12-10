@@ -1,7 +1,7 @@
 {
 	"name": "@t-ski/climb",
 	"version": "0.1.0",
-	"description": "Create a CLI for your JS application with ease. ",
+	"description": "Give your Node.js app a CLI with ease.",
 	"author": "Thassilo Martin Schiepanski",
 	"homepage": "https://github.com/t-ski/climb",
 	"keywords": [],
@@ -27,15 +27,16 @@
 		"lint:fix": "npx eslint --fix ./src/**/*.ts",
 		"format": "npx prettier --check ./src/**/*.ts",
 		"format:fix": "npx prettier --write ./src/**/*.ts",
-		"test": "npx rjs-test unit ./test",
+		"test": "echo 'no test defined' && exit 1;",
 		"utility": "node ./scripts/utility.js"
 	},
 	"devDependencies": {
+		"@eslint/js": "^9.2.0",
 		"@rapidjs.org/testing": "^0.1.0",
 		"@rapidjs.org/testing-unit": "^0.1.0",
+		"@types/node": "^22.10.1",
 		"@typescript-eslint/eslint-plugin": "^7.8.0",
 		"@typescript-eslint/parser": "^7.8.0",
-		"@eslint/js": "^9.2.0",
 		"eslint": "^8.57.0",
 		"eslint-plugin-typescript": "^0.14.0",
 		"husky": "^9.0.11",
