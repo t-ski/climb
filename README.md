@@ -17,7 +17,7 @@ const { registerCommand } = require("@t-ski/climb");
 
 registerCommand("start")
   .then(() => {
-    registerCommand("help")
+    registerCommand("help", 1)
       .then(() => api.diplayHelp("start"));
     
     api.start();
